@@ -144,10 +144,10 @@ open class Highlightr
              ]
             
             let data = string.data(using: String.Encoding.utf8)!
-            safeMainSync
-            {
+//            safeMainSync
+//            {
                 returnString = try? NSMutableAttributedString(data:data, options: opt, documentAttributes:nil)
-            }
+//            }
         }
         
         return returnString
